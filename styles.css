@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope";
+}
+
+:root {
+  --white: "FFFFFF";
+  --light-gray: "9DAEC2";
+  --gray: "6E8098";
+  --dark-gray: "48556A";
+}
+
+body {
+  border: 1px solid red;
+  height: calc(100vh);
+  width: calc(100vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-height: 512px;
+  max-width: 327px;
+  border-radius: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.main-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.text-area {
+  padding: 1rem 27px 1rem 27px;
+}
+
+.main-header {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--dark-gray);
+}
+
+.main-text,
+.user-name,
+.date {
+  font-size: 13px;
+  font-weight: medium;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.date {
+  font-weight: 300;
+}
