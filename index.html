@@ -5,50 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
 
     <title>Article Preview Component</title>
   </head>
   <body>
-    <div class="container">
+    <section class="container">
       <img class="main-image" src="/images/drawers.jpg" alt="image-drawer" />
 
-      <div class="text-area">
-        <h3 class="main-header">
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h3>
+      <div class="sub-container">
+        <section class="text-area">
+          <h3 class="main-header">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h3>
 
-        <p class="main-text">
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
-      </div>
+          <p class="main-text">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </section>
 
-      <div class="footer">
-        <div class="footer-left">
-          <img
-            class="user-image"
-            src="images/avatar-michelle.jpg"
-            alt="user-image"
-          />
-          <div class="footer-text">
-            <p class="user-name">Michelle Appleton</p>
-            <p class="date">28 Jun 2020</p>
-          </div>
-        </div>
-        <button class="share-button">
-          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
-            <path
-              fill="#6E8098"
-              d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+        <footer class="footer">
+          <div class="footer-left">
+            <img
+              class="user-image"
+              src="images/avatar-michelle.jpg"
+              alt="user-image"
             />
-          </svg>
-        </button>
-      </div>
-
-      <div class="footer-2-container">
-        <div class="footer-2">
+            <div class="footer-text">
+              <p class="user-name">Michelle Appleton</p>
+              <p class="date">28 Jun 2020</p>
+            </div>
+          </div>
+          <button class="share-button" id="share-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+              <path
+                fill="#6E8098"
+                d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+              />
+            </svg>
+          </button>
+        </footer>
+        <footer class="footer-2 hidden">
           <div class="footer2-left">
             <p class="share-text">SHARE</p>
             <img
@@ -75,8 +75,8 @@
               />
             </svg>
           </button>
-        </div>
+        </footer>
       </div>
-    </div>
+    </section>
   </body>
 </html>
