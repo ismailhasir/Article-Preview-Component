@@ -135,6 +135,7 @@ body {
   border-radius: 50%;
   border: none;
   background-color: #6e8098;
+  cursor: pointer;
 }
 
 .hidden {
@@ -156,7 +157,7 @@ body {
   }
 
   .sub-container {
-    max-height: 280px;
+    padding-top: 1.114rem;
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -166,5 +167,10 @@ body {
 
   .footer {
     width: 100%;
+  }
+
+  .footer-2 {
+    width: 100%;
+    border-radius: 0 0 1rem 0;
   }
 }
