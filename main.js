@@ -8,19 +8,11 @@ const footerActive = document.querySelector(".footer-2");
 const isDesktop = window.matchMedia("(min-width: 750px)").matches;
 
 shareButton.addEventListener("click", (e) => {
-  if (isDesktop) {
-    console.log("Desktop!!");
-  } else {
-    footerActive.classList.remove("hidden");
-    footer.classList.add("hidden");
-  }
+  footerActive.classList.remove("hidden");
+  footer.classList.add("hidden");
 });
 
 shareButtonActive.addEventListener("click", (e) => {
-  if (isDesktop) {
-    console.log("BBBBBB");
-  } else {
-    footerActive.classList.add("hidden");
-    footer.classList.remove("hidden");
-  }
+  footerActive.classList.add("hidden");
+  footer.classList.remove("hidden");
 });
